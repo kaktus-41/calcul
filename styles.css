@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+    background: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+body.dark .container {
+    background: #2c2c2c;
+    color: #e0e0e0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2em;
+}
+
+body.dark h1 {
+    color: #e0e0e0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+    font-size: 1.1em;
+}
+
+body.dark label {
+    color: #ccc;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background: white;
+    color: black;
+    font-size: 1em;
+    transition: background 0.3s, color 0.3s;
+}
+
+body.dark input {
+    background: #3a3a3a;
+    color: #e0e0e0;
+    border: 1px solid #555;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#resetButton {
+    background: #dc3545;
+}
+
+#resetButton:hover {
+    background: #c82333;
+}
+
+#themeToggle {
+    background: #6c757d;
+}
+
+#themeToggle:hover {
+    background: #5a6268;
+}
+
+#results {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.result-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.result-item {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, color 0.3s;
+}
+
+body.dark .result-item {
+    background: #3a3a3a;
+    border: 1px solid #555;
+}
+.themeToggle1{
+    margin-top:20px;
+}
+#results p {
+    margin: 0;
+    font-size: 1.3em;
+    color: #333;
+}
+
+body.dark #results p {
+    color: #e0e0e0;
+}
